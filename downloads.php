@@ -29,15 +29,21 @@
     <th>Action</th>
 </thead>
 <tbody>
+<?php $a=0;?>
   <?php foreach ($files as $file): ?>
     <tr>
       <td><?php echo $file['id']; ?></td>
       <td><?php echo $file['fname']; ?></td>
       <td><?php echo floor($file['size'] / 1000) . ' KB'; ?></td>
       <td><?php echo $file['downloads']; ?></td>
+      <?php $a=$a+$file['downloads'];?>
       <td><a href="downloads.php?file_id=<?php echo $file['id'] ?>">Download</a></td>
     </tr>
   <?php endforeach;?>
+  <tr>
+  <td colspan="3">Total Downloads</td>
+  <td colspan="2"><?php echo $a;?></td>
+  </tr>
 
 </tbody>
 </table>
