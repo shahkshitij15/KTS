@@ -6,6 +6,7 @@
 
 <html>
   <head>
+  <title>Login Page</title>
 
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
@@ -99,20 +100,20 @@ body#LoginForm{ background-image:url("https://hdwallsource.com/img/2014/9/blur-2
         <div class="form-group">
 
 
-            <input type="text" class="form-control" name="username" placeholder="Enter username" required="required">
+            <input type="text" class="form-control" name="username" id="username" placeholder="Enter username" required="required">
 
         </div>
 
         <div class="form-group">
 
-            <input type="password" class="form-control" name="password" placeholder="Password" required="required" >
+            <input type="password" class="form-control" name="password" id="password" placeholder="Password" required="required" >
 
         </div>
         <div class="forgot">
         <a href="main.php">Forgot password?</a>
         </div>
     <div class="form-group">
-        <button type="submit" name="submit" value="Login" class="btn btn-primary">Login</button>
+        <button type="submit" name="submit" value="Login" id="submit" class="btn btn-primary">Login</button>
 
     </div>
     </form>

@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css">
-    <title>Files Upload and Download</title>
+    <title>Senior Employee</title>
   </head>
   <body style="background-image:url('https://hdwallsource.com/img/2014/9/blur-26347-27038-hd-wallpapers.jpg')">
     <div class="container">
